@@ -1,3 +1,16 @@
 .bannerimage{
-    background-image: url('images/bold-8-cut.jpg');
+    background-image: url('images/bold-1-cut-wave-header.jpg');
+}
+
+h2, h3, a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Titan One', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
