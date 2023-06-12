@@ -1,5 +1,6 @@
 .bannerimage{
     background-image: url('images/bold-1-cut-wave-header.jpg');
+    background-position: top center;
 }
 
 h2, h3, a {
@@ -24,4 +25,8 @@ p {
     letter-spacing: .045em;
     line-height: 1.35;
     font-weight: 400;
+}
+
+body h3{
+    font-weight: 800;
 }
