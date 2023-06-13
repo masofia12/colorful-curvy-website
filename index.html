@@ -11,87 +11,114 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400;1,800&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!---------------------- Header --------------------->
     <header class="flex justify-center items-center bg-top bannerimage min-h-screen bg-center bg-cover text-white">
-        <nav class="absolute top-4 left-4">
-            <a href="#">Logo</a>
-            <a href="#">Nav 1</a>
-            <a href="#">Nav 2</a>
-            <a href="#">Nav 3</a>
+        <nav class="absolute top-4 left-4 tracking-widest">
+            <a class="pr-5" href="#">Logo</a>
+            <a class="px-5" href="#">Nav 1</a>
+            <a class="px-5" href="#">Nav 2</a>
+            <a class="px-5" href="#">Nav 3</a>
         </nav>
-        <a href="#" class="absolute top-4 right-4">Contact us</a>
+        <a href="#" class="absolute top-4 right-4 rounded-[12vw] py-1 px-5 border-solid border-2">Contact us</a>
         <div class="text-center">
-            <h1 class="text-9xl">This is a heading</h1>
-            <h2 class="text-black">Subheading</h2>
-            <a href="#">Book now</a>
+            <h1 class="text-9xl">This is a <br>heading</h1>
+            <div class="mt-4"><h2 class="text-black">Subheading</h2></div>
+            <div class="mt-6"><a class="bg-black rounded-[12vw] py-2 px-9 font-bold" href="#">Book now</a></div>
         </div>
         <svg class="absolute bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
             <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
         </svg>
     </header>
+    
+    <!---------------------- 3 Images --------------------->
+
     <section class="text-center bg-[#EEC1DC] p-[5%]">
         <h2>Duis aute irure</h2>
-        <div class="grid grid-cols-3 gap-4 mt-14 mb-14">
+        <div class="grid grid-cols-3 gap-4 mt-14">
             <div>
-                <img class="rounded-t-full rounded-b-xl"src="/images/bold-2-cut.jpg" alt="pillow and sofa">
+                <img class="rounded-t-[20vw] rounded-b-[4rem]"src="/images/bold-2.jpg" alt="pillow and sofa">
                 <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
             <div>
-                <img class="rounded-t-full" src="/images/bold-3-cut.jpg" alt="lamp">
+                <img class="rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-3-cut.jpg" alt="lamp">
                 <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
             <div>
-                <img class="rounded-t-full" src="/images/bold-4-cut.jpg" alt="sofa with shadow">
+                <img class="rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-4-cut.jpg" alt="sofa with shadow">
                 <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
         </div>
     </section>
+     <!---------------------- Rainbow  --------------------->
     <section class="grid grid-cols-2 gap-4 bg-[#EEC1DC]">
         <div class="mt-14 mb-14">
-            <img src="/images/bold-5-cut.jpg" class="rounded-r-full" alt="rainbow wall">
+            <img src="/images/bold-5-cut.jpg" class="rounded-r-full w-[140%] max-w-[140%]" alt="rainbow wall">
         </div>
         <div class="self-center">
             <h2>Duis aute irure</h2>
-            <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
-            <a href="#">Sign up</a>
+            <p class="py-5 pr-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+            <div class="mt-2"><a class="bg-[#FE953D] rounded-[12vw] py-2 px-9 font-bold" href="#">Sign up</a></div>
         </div>
         </div>
     </section>
+     <!---------------------- Doorway  --------------------->
 
     <section class="grid grid-cols-2 bg-[#FE953D]">
         <div class="bg-[#FEC001] pt-28 px-24">
-            <img src="/images/bold-6-cut.jpg" class="rounded-t-full" alt="rainbow wall">
+            <img src="/images/bold-6-cut.jpg" class="rounded-t-full" alt="doorway">
         </div>
         <div class="self-end p-[10%]">
             <h2 class="text-white">Duis aute irure</h2>
             <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
-            <a href="#">Buy now</a>
+            <div class="mt-2"><a class="bg-[#EEC1DC] rounded-[12vw] py-2 px-9 font-bold" href="#">Buy now</a></div>
         </div>
     </section>
-    <section class="grid grid-cols-4 bg-[#EEC1DC] gap-8 items-center py-16">
-        <div class="col-span-2">
-            <img src="/images/bold-7-cut.jpg" class="rounded-r-full" alt="lamp">
-        </div>
-        <div>
-            <img src="/images/bold-8.jpg" class="rounded-full" alt="counch with shadow">
-        </div>
-        <div>
-            <img src="/images/bold-9-cut.jpg" class="rounded-l-full" alt="lemons">
+    <!---------------------- 3-images  --------------------->
+    <section class="bg-[#EEC1DC]">
+        <div class="grid grid-cols-4 gap-8 items-center py-16">
+            <div class="col-span-2 aspect-[2] relative">
+            <img src="/images/bold-7-cut.jpg" class="rounded-r-full absolute inset-0 h-full w-full object-cover" alt="lamp">
+            </div>
+            <div class="aspect-square relative">
+                <img src="/images/bold-8.jpg" class="rounded-full absolute inset-0" alt="counch with shadow">
+            </div>
+            <div class="aspect-square relative">
+                <img src="/images/bold-9-cut.jpg" class="rounded-l-full absolute inset-0 object-cover h-full w-full" alt="lemons">
+            </div>
         </div>
     </section>
 
     <!------------------- Contact us section ------------------->
-    <section class="grid grid-cols-2 bg-[#FE953D]">
-        <div class="p-[10%]">
+    <section class="grid grid-cols-2 bg-[#FE953D] relative px-[2%] py-[1%]">
+        <div class="px-[10%] py-[15%]">
             <h2>Contact us</h2>
             <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
         </div>
-        <div class="self-end p-[10%]">
-            <h2 class="text-white">Contact Form</h2>
-            <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
-            <a href="#">Send</a>
+        <div class="self-end p-[10%] uppercase">
+            <svg class="absolute top-[-5.2%] left-0 w-full" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
+                <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
+            </svg>
+            <form class="box-border p-[5%]">
+                <label class="ml-4" for="_name"> Name </label>
+                <input type="text" name="_name" class="bg-[#EEC1DC] rounded-[12vw] " id="_name"/>
+                
+                <label class="ml-4" for="_replyto"> Email </label>
+                <input type="email" name="_replyto" id="_replyto" class="bg-[#EEC1DC] rounded-[12vw] "/>
+              
+                <label class="ml-4" for="message"> Message </label>
+                <textarea name="message" id="message" class="bg-[#EEC1DC] rounded-[1.5vw]"></textarea>
+
+            
+                <div class="mt-2"><input type="submit" value="send" dir="rtl" class="block ml-auto bg-black text-white rounded-[12vw] py-2 px-12 w-min font-bold"></div>
+              </form>
+              <svg class="absolute bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
+                <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
+            </svg>
         </div>
     </section>
-    <footer class="grid grid-cols-5 gap-16 px-24 bg-[#EEC1DC]">
+    <!--------------------------- Footer ------------------->
+    <footer class="grid grid-cols-3 lg:grid-cols-5 gap-16 px-24 bg-[#EEC1DC]">
         <div class="mt-14 mb-14">
             <h3>Lorem ipsum</h2>
             <p class="pt-5">dolor sit amet consectetur adipisicing elit quas facere ducimus </p>
@@ -104,10 +131,12 @@
             <h3>Lorem ipsum</h2>
             <p class="pt-5">dolor sit amet consectetur adipisicing elit quas facere ducimus</p>
         </div>
-        <div class="col-span-2 text-right mt-14 mb-14">
-            <h3>Subscribe to our newsletter</h2>
-            <p class="pt-10">email form</p>
-            <a href="#">Subscribe</a>
+        <div class="col-span-2 text-right my-[10%]">
+            <h3 class="tracking-widest">Subscribe to our newsletter</h2>
+            <form class="box-border">
+            <input type="email" name="_replyto" id="_replyto" class="bg-[#FE953D] ml-auto rounded-[12vw] py-2 px-6 w-[20.8rem] block"/>
+            <input type="submit" class="ml-auto bg-black text-white rounded-[12vw] py-2 px-9 w-min font-bold">
+            </form>
         </div>
     </footer>
 

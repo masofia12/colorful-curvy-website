@@ -30,3 +30,38 @@ p {
 body h3{
     font-weight: 800;
 }
+
+form input, 
+form textarea{
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  outline: none;
+  text-transform: uppercase;
+}
+
+form input:focus,
+form textarea:focus{
+  border-color:#EEC1DC;
+}
+
+textarea{
+  min-height: 6rem;
+}
+
+form label{
+  margin-top: 1rem;
+  display: block;
+  color: inherit; 
+}
+
+
+.inline{
+  display:inline;
+  width:initial;
+  margin-bottom: 1rem;
+}
+
+.text{
+  margin-left: 1rem;
+}
