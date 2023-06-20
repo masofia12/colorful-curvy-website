@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/output-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400;1,800&family=Titan+One&display=swap" rel="stylesheet">
@@ -13,65 +13,65 @@
 <body>
 
     <!---------------------- Header --------------------->
-    <header class="flex justify-center items-center bg-top bannerimage min-h-screen bg-center bg-cover text-white">
+    <header class="flex justify-center items-center bg-top bannerimage min-h-[80vh] sm:min-h-screen bg-center bg-cover text-white" style="background-image: url('images/bold-1-cut-wave-header.jpg')">
         <nav class="absolute top-4 left-4 tracking-widest">
             <a class="pr-8" href="#">Logo</a>
-            <a class="px-8" href="#">Nav 1</a>
+            <!-- <a class="px-8" href="#">Nav 1</a>
             <a class="px-8" href="#">Nav 2</a>
-            <a class="px-8" href="#">Nav 3</a>
+            <a class="px-8" href="#">Nav 3</a> -->
         </nav>
         <a href="#contact-us" class="absolute top-4 right-4 rounded-[12vw] py-1 px-5 border-solid border-2">Contact us</a>
         <div class="text-center">
-            <h1 class="text-9xl">This is a <br>heading</h1>
-            <div class="mt-4"><h2 class="text-black">Subheading</h2></div>
+            <h1 class="text-6xl sm:text-9xl">This is a <br>heading</h1>
+            <div class="mt-4"><h2 class="font-extrabold	text-black text-xl sm:text-3xl sm:tracking-widest">Subheading</h2></div>
             <div class="mt-6"><a class="tracking-widest bg-black rounded-[12vw] py-2 px-9 font-bold" href="#">Book now</a></div>
         </div>
-        <svg class="absolute bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
+        <svg class="absolute bottom-[12.8%] sm:bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
             <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
         </svg>
     </header>
     
     <!---------------------- 3 Images --------------------->
 
-    <section class="text-center bg-[#EEC1DC] p-[5%]">
-        <h2>Duis aute irure</h2>
-        <div class="grid grid-cols-3 gap-4 mt-14">
+    <section class="text-center bg-light p-[5%]">
+        <h2 class="pt-5p font-extrabold text-xl sm:text-3xl sm:tracking-widest">Duis aute irure</h2>
+        <div class="sm:grid sm:grid-cols-3 sm:gap-4 mt-14">
             <div>
-                <img class="rounded-t-[20vw] rounded-b-[4rem]"src="/images/bold-2.jpg" alt="pillow and sofa">
-                <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+                <img class="rounded-t-[45vw] sm:rounded-t-[20vw] rounded-b-[4rem]"src="/images/bold-2.jpg" alt="pillow and sofa">
+                <p class="py-10 sm:pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
             <div>
-                <img class="rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-3-cut.jpg" alt="lamp">
-                <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+                <img class="rounded-t-[45vw] sm:rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-3-cut.jpg" alt="lamp">
+                <p class="py-10 sm:pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
             <div>
-                <img class="rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-4-cut.jpg" alt="sofa with shadow">
-                <p class="pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+                <img class="rounded-t-[45vw] sm:rounded-t-[20vw] rounded-b-[4rem]" src="/images/bold-4-cut.jpg" alt="sofa with shadow">
+                <p class="py-10 sm:pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
             </div>
         </div>
     </section>
      <!---------------------- Rainbow  --------------------->
-    <section class="grid grid-cols-2 gap-4 bg-[#EEC1DC]">
-        <div class="mt-14 mb-14">
-            <img src="/images/bold-5-cut.jpg" class="rounded-r-full w-[140%] max-w-[140%]" alt="rainbow wall">
+    <section class="md:grid md:grid-cols-2 md:gap-4 bg-light">
+        <div class="md:mb-14">
+            <img src="/images/bold-5-cut.jpg" class="rounded-r-full md:w-[140%] md:max-w-[140%]" alt="rainbow wall">
         </div>
-        <div class="self-center">
-            <h2>Duis aute irure</h2>
-            <p class="py-5 pr-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
-            <div class="mt-2"><a class="tracking-widest bg-[#FE953D] rounded-[12vw] py-2 px-9 font-bold" href="#">Sign up</a></div>
+        <div class="self-center text-center md:text-left p-10p md:pb-0">
+            <h2 class="font-extrabold text-xl sm:text-3xl sm:tracking-widest">Duis aute irure</h2>
+            <p class="py-5 md:pr-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+            <div class="mt-2"><a class="tracking-widest bg-feature rounded-[12vw] py-2 px-9 font-bold" href="#">Sign up</a></div>
         </div>
         </div>
     </section>
      <!---------------------- Doorway  --------------------->
 
-    <section class="grid grid-cols-2 bg-[#FE953D]">
-        <div class="bg-[#FEC001] pt-28 px-24">
+    <section class="md:grid md:grid-cols-2 bg-feature">
+        <div class="bg-yellow pt-28 px-24 hidden md:block">
             <img src="/images/bold-6-cut.jpg" class="rounded-t-full" alt="doorway">
         </div>
-        <div class="self-end p-[10%]">
-            <h2 class="text-white">Duis aute irure</h2>
-            <p class="py-5 pr-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
-            <div class="mt-2 mb-14"><a class="tracking-widest bg-[#EEC1DC] rounded-[12vw] py-2 px-9 font-bold" href="#">Buy now</a></div>
+        <div class="self-end p-[10%] text-center md:text-left">
+            <h2 class="text-white font-extrabold text-xl sm:text-3xl sm:tracking-widest">Duis aute irure</h2>
+            <p class="py-5 md:pr-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
+            <div class="mt-2 md:mb-14"><a class="tracking-widest bg-[#EEC1DC] rounded-[12vw] py-2 px-9 font-bold" href="#">Buy now</a></div>
         </div>
     </section>
     <!---------------------- 3-images  --------------------->
@@ -90,13 +90,13 @@
     </section>
 
     <!------------------- Contact us section ------------------->
-    <section id="contact-us" class="grid grid-cols-2 bg-[#FE953D] relative px-[2%] py-[1%]">
+    <section id="contact-us" class="sm:grid sm:grid-cols-2 bg-[#FE953D] relative px-[2%] py-[1%]">
         <div class="px-[10%] py-[15%]">
             <h2>Contact us</h2>
             <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quas facere ab fugiat ipsa nulla, eius fugit dolorem impedit repellat quo iusto quis optio quasi ducimus nam necessitatibus velit? Necessitatibus?</p>
         </div>
         <div class="self-end p-[10%] uppercase">
-            <svg class="absolute top-[-5.2%] left-0 w-full" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
+            <svg class="absolute top-[-5.2%] md:top-[-9.2%] lg:top-[-5.2%] left-0 w-full" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
                 <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
             </svg>
             <form class="box-border p-[5%]">
@@ -112,7 +112,7 @@
             
                 <div class="mt-2"><input type="submit" value="send" dir="rtl" class="tracking-widest block ml-auto bg-black text-white rounded-[12vw] py-2 px-12 w-min font-bold"></div>
               </form>
-              <svg class="absolute bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
+              <svg class="absolute bottom-[-5.2%] md:bottom-[-9.2%] lg:bottom-[-5.2%] left-0 w-full rotate-180" xmlns="http://www.w3.org/2000/svg" width="1440" height="111" viewBox="0 0 1440 111" fill="none">
                 <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
             </svg>
         </div>
