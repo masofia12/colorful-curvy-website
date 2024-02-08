@@ -9,7 +9,7 @@
 @layer base {
 
     body {
-        @apply sm:border-blue md:border-purple lg:border-teal border-8;
+        
     } 
   
     h2, h3, a {
